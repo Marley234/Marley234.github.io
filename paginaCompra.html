@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">SUPERMERCADO <br> </a>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="Imagenes/menu.png" class="menu-icono" alt="men u"></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Reservaciones</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="Imagenes/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <img src="Imagenes/ORION.png" alt="">
+            
+            <p>
+                Supermercado líder en la industria al detalle del sur del Perú, ubicada en la ciudad del Cusco.
+
+            </p>
+            <div class="botones">
+                <a href="#" class="btn-1">Mas informacion</a>
+                <a href="#" class="btn-1">Menu</a>
+            </div>
+
+            <divc class="sociales-1">
+                <img src="Imagenes/s1.svg" alt="">
+                <img src="Imagenes/s2.svg" alt="">
+                <img src="Imagenes/s3.svg" alt="">
+            </div>
+            <a href="#lista">
+                <img class="arrow" src="Imagenes/arrow.svg" alt="">
+            </a>
+        </div>
+    </header>
+
+
+
+        <section class="tipos container">
+            <div class="licores-1">
+                <h3>Descubre nuestra gran variedad de productos y recibe tu pedido el mismo día, desde 2 horas.                </h3>
+                <hr>
+                <p>Explora lo más vendido del supermercado</p>
+            </div>
+            <div class="licores-2">
+                <h2>APROVECHA YA! <br> </h2>
+            </div>
+        </section>
+
+
+
+        <section class="licores container" id="lista">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3> ARROZ <br>Arroz de 750 gr</h3>
+                            <p class="precio">S/12.90</p>
+                            <img src="Imagenes/Arroz.png" alt="">
+                            <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                            <p>
+                                <strong>Descripcion</strong>
+                                <br>Lorem
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3> YOGURT <br>Botella de 3.5 Kl</h3>
+                            <p class="precio">S/26.90</p>
+                            <img src="Imagenes/yogurt.png" alt="" >
+                            <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                            <p>
+                                <strong>Descripcion</strong>
+                                <br>Lorem
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3> MANTEQUILLA <br>Contenido Neto 100 g</h3>
+                            <p class="precio">S/14.00</p>
+                            <img src="Imagenes/mantequilla.png" alt="">
+                            <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                            <p>
+                                <strong>Descripcion</strong>
+                                <br>Lorem
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3> MANJAR <br>Cont Neto 1K</h3>
+                            <p class="precio">S/16.90</p>
+                            <img src="Imagenes/manjar.png" alt="">
+                            <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                            <p>
+                                <strong>Descripcion</strong>
+                                <br>Lorem
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3> AZUCAR <br>Azucar de 50 KG </h3>
+                            <p class="precio">S/190.90</p>
+                            <img src="Imagenes/AZUCAR.png" alt="">
+                            <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                            <p>
+                                <strong>Descripcion</strong>
+                                <br>Lorem
+                            </p>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+
+
+
+        <section class="Licores container">
+
+            <div class="licor-2">
+                <a href="#" class="logo">OTROS PRODUCTOS MEJORES CONSUMIDOS DENTRO DEL SUPERMERCADO <br> </a>
+            </div>
+            <div class="licores-1">
+                <hr>
+                <p>POLLO, CARNE, LACCTEOS, DULCES, BEBIDAS, ERC</p><br>
+            </div>
+            
+        </section>
+
+       
+
+
+        <section class="PRODUCTOS" id="lista-2">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> POLLO ENTERO <br> </h3>
+                            <p class="precio">S/38.90</p>
+                            <img src="Imagenes/POLLO.png" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                            <p class="c2">
+                             
+                            </p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> CARNE MOLIDA <br>Contenido Neto de 320 gr</h3>
+                            <p class="precio">S/22.90</p>
+                            <img src="Imagenes/CARNE.png" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                            <p class="c2">
+                              
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> COCA COLA ENLATADA <br>Contiene 6 latas de gaseosa</h3>
+                            <p class="precio">S/30.00</p>
+                            <img src="Imagenes/cocaaa.png" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                            <p class="c2">
+                                
+                            </p>
+                        </div>
+                    </div>    
+                    
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> RUSSKAYA <br>Botella de 1.75 L </h3>
+                            <p class="precio">S/26.90</p>
+                            <img src="Imagenes/russkaya.png" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> PICARAS <br> Contiene 6 galletas </h3>
+                            <p class="precio">S/9.00</p>
+                            <img src="Imagenes/PICA.png" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> CEREAL <br> Conteiene 350 gr </h3>
+                            <p class="precio">S/12.90</p>
+                            <img src="Imagenes/cereal.png" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> SALCHICHAS <br> Contiene 20 salchichas </h3>
+                            <p class="precio">S/27.90</p>
+                            <img src="Imagenes/salchi.png" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                             
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> PORTOLA <br>Contiene OMEGA 3 </h3>
+                            <p class="precio">S/10.30</p>
+                            <img src="Imagenes/portola.png" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                               
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> PAPAS INKA <br> Contenido de 142 gr </h3>
+                            <p class="precio">S/3.00</p>
+                            <img src="Imagenes/PAPAS.png" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> CHULETA AHUMADA DE CERDO <br> Contiene 400-500 gr </h3>
+                            <p class="precio">S/22.90</p>
+                            <img src="Imagenes/chuleta.png" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                               
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> POAN INTEGRAL UNION <br> Contiene 780 gr </h3>
+                            <p class="precio">S/26.00</p>
+                            <img src="Imagenes/pan.png" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                               
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> POLLO ENTERO <br>Pollo a la brasa con inka cola y papas </h3>
+                            <p class="precio">S/70.00</p>
+                            <img src="Imagenes/polloalabrasita.png" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                        
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> RAPIDITAS <br> Contiene 20 gr, 8 unidades</h3>
+                            <p class="precio">S/17.90</p>
+                            <img src="Imagenes/rapi.png" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="licores container">
+
+            <div class="licor-1">
+
+                <hr>
+                <p>Contacto</p>
+            </div>
+            
+        </section>
+
+
+
+        <footer class="footer container">
+
+            <div class="links">
+                <div class="link">
+                    <h3>Conocenos</h3>
+                    <p>
+                        Licoreria247 Es la Licorería Delivery con los Mejores Licores
+                         en oferta y Promociones de Licores en Lima, Perú. Tenemos la 
+                         mayor variedad de licores, con categorías como Whisky, Ron, 
+                         Vodka, Gin, Vinos, Espumante, Pisco, etc.
+                    </p>
+                    <h3>Siguenos en:</h3>
+                    <div class="sociales-2">
+                        <img src="Imagenes/s1.svg" alt="">
+                        <img src="Imagenes/s2.svg" alt="">
+                        <img src="Imagenes/s3.svg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="link">
+                    <h3>Clientes</h3>
+                    <ul>
+                        <li><a href="https://licoreria247.pe/terminos-y-condiciones/">Términos & Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Política de Tratamiento de Datos</a></li>
+                    </ul>
+                </div>
+
+                <div class="link">
+                    <h3>Enlaces de interés</h3>
+                    <ul>
+                        <li><a href="#">Tu nuevo delivery de licores</a></li>
+                        <li><a href="#">Cómo detectar licores falsificados</a></li>
+                        <li><a href="#">Vende con nosotros</a></li>
+                        <li><a href="https://licoreria247.pe/libro-de-reclamaciones/"></a><img src="Imagenes/libro.webp" width="220px" height="130px" alt=""></li>
+                    </ul>
+                </div>
+
+
+                <div class="link">
+                    <h4>Ingresa tus datos para comprar articulos</h4>
+                    <br><h3>Registrate</h3>
+                    <form>
+                        <input type="text" placeholder="Nombre" class="inp">
+                        <input type="email" placeholder="Email" class="inp">
+                        <textarea class="inp"></textarea>
+                        <input class="btn-4" type="submit" value="enviar">
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
